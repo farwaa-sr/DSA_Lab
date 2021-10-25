@@ -49,9 +49,9 @@ class Queue:
     d=deque.popleft(main.queue)
     return d
 def main():
-  q=Queue()
-  q.enqueue(23)
-  q.enqueue(34)
-  print(q)
-  q.deque()
-  print(q)
+  q1=Queue()
+  q1.enqueue(23)
+  q1.enqueue(34)
+  print(q1)
+  q1.deque()
+  print(q1)
