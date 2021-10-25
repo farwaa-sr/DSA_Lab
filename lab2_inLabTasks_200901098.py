@@ -32,7 +32,7 @@ from collections import deque
 class Queue:
   def __init__(main):
     main.queue=deque([5,2,5,2,6,7])
-    def enqueue(main,val):
+  def enqueue(main,val):
      a=deque.append(main.queue,val)
      return a
   def dequeue(main):
